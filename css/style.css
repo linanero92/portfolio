@@ -36,7 +36,8 @@ a {
 
 .header {
 	margin: 0;
-	min-height: 800px;
+	padding-top: 270px;
+	padding-bottom: 47px;
 	background-color: #004371;
 	background-image: url("../img/bg/bg-header.jpg");
 	background-repeat: no-repeat;
@@ -64,6 +65,7 @@ a {
 }
 
 .header__description {
+	margin-bottom: 300px;
 	width: 400px;
 	font-size: 28px;
 	line-height: 42px;
@@ -94,6 +96,8 @@ a {
 /* PORTFOLIO */
 
 .portfolio {
+	padding-top: 70px;
+	padding-bottom: 110px;
 }
 
 .portfolio-item {
@@ -102,7 +106,6 @@ a {
 
 .portfolio__title {
 	margin: 0;
-	padding-top: 60px;
 	padding-bottom: 60px;
 	font-size: 46px;
 	font-family: 'Merriweather', serif;
@@ -134,3 +137,80 @@ a {
 .portfolio-item__title a:active {
 	border: none;
 }
+
+/* FOOTRER */
+
+.footer {
+	padding-top: 90px;
+	padding-bottom: 200px;
+	background-color: #061634;
+	color: #6479a2;
+}
+
+.footer__social-list {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+	align-items: center;
+	margin: 0 auto;
+	padding: 0;
+	list-style: none;
+}
+
+.footer__social-item {
+	margin: 0;
+	margin-right: 36px;
+	padding: 0;
+}
+
+.footer__social-item:last-child {
+	margin-right: 0;
+}
+
+.social-item {
+	fill: #ffffff;
+}
+
+.social-item:hover {
+	fill: #ffe400;
+}
+
+.footer p {
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+.footer__name {
+	margin-bottom: 10px;
+	font-family: 'Merriweather', serif;
+	line-height: 1.6;
+}
+
+.footer__name.copyright {
+	font-size: 28px;
+}
+
+.footer__social {
+	color: #ffffff;
+}
+
+.footer__button {
+	display: inline-block;
+	padding: 8px 23px;
+	vertical-align: baseline;
+	font-weight: 700;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 1.6px;
+	border-width: 2px;
+	border-color: #ffffff;
+	border-style: solid;
+	border-radius: 50px;
+}
+
+.footer__button:hover {
+	color: #061634;
+	background-color: #ffffff;
+
+}
+
