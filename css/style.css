@@ -72,9 +72,14 @@ a {
 	text-align: center;
 }
 
-.down-svg {
+.header__arrow-down {
 	fill: #ffffff;
 }
+
+.header__arrow-down:hover {
+	cursor: pointer;
+}
+
 
 /* GRID */
 
@@ -132,6 +137,7 @@ a {
 .portfolio-item__title a:hover {
 	color: #0052c2;
 	border-bottom: 1px solid rgba(0, 82, 194, 0.3);
+	transition: 0.3s ease-out;
 }
 
 .portfolio-item__title a:active {
@@ -173,6 +179,7 @@ a {
 
 .social-item:hover {
 	fill: #ffe400;
+	transition: 0.3s ease-out;
 }
 
 .footer p {
@@ -211,6 +218,40 @@ a {
 .footer__button:hover {
 	color: #061634;
 	background-color: #ffffff;
+	transition: 0.4s ease-out;
 
 }
 
+/* INNER-ORGANICA */
+
+.portfolio-single-page {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+.portfolio-single-page__img {
+	margin-bottom: 50px;
+	max-width: 100%;
+	height: auto;
+}
+
+.portfolio-single-page__button-back {
+	display: inline-block;
+	padding: 8px 23px;
+	vertical-align: baseline;
+	font-weight: 700;
+	color: #0052c2;
+	text-transform: uppercase;
+	letter-spacing: 1.6px;
+	border-width: 2px;
+	border-color: #0052c2;
+	border-style: solid;
+	border-radius: 50px;
+}
+
+.portfolio-single-page__button-back:hover {
+	color: #ffffff;
+	background-color: #0052c2;
+	transition: 0.4s ease-out;
+}
